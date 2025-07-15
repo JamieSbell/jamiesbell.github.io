@@ -37,6 +37,19 @@ nav ul li.logo{
     background: none;
     flex: 1;
 }
+
+body nav ul li a:link{
+    color: #E655FF;
+}
+body nav ul li a:hover{
+    color: #E655FF;
+}
+body nav ul li a:active{
+    color: #E655FF;
+}
+body nav ul li a:visited{
+    color: #E655FF;
+}
 body{
     background-image: linear-gradient(#B855CA,#892A3C);
     background-repeat: no-repeat;
@@ -51,7 +64,7 @@ intro{
     display: flex;
 }
 intro text-body{
-    background-image: url(resources/intro-bg.svg);
+    background-image: url(intro-bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
     flex: 1;
@@ -83,7 +96,7 @@ featured-links ul li{
     margin: 8px;
     width: 320px;
     height: 168px;
-    background-image: url(resources/project.png);
+    background-image: url(project.png);
     background-repeat: no-repeat;
     font-size: 32px;
     text-align: center;
@@ -94,7 +107,10 @@ footer nav{
     background-color: #711c2b;
 }
 footer nav ul{
-    justify-content: center;
+    display: inline-block;
+    text-align: center;
+
+    
 }
 footer nav ul li{
     display: inline-block;
@@ -102,9 +118,23 @@ footer nav ul li{
     text-decoration: underline;
     color: #ec5873;
 }
-footer nav ul li.top{
+
+footer nav ul li a:link{
+    color: #ec5873;
+}
+footer nav ul li a:visited{
+    color: #ec5873;
+}
+footer nav ul li a:hover{
+    color: #ec5873;
+}
+footer nav ul li a:active{
+    color: #ec5873;
+}
+
+footer nav ul li.back-to-top{
     display: block;
-    background-color: #3c040e;
+    background:none;
     text-decoration: underline;
     color: #ec5873;
 }
