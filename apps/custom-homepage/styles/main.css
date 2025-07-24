@@ -67,7 +67,7 @@
  
 body{
     /* Source for the background image >>> https://www.pexels.com/photo/yellow-bokeh-photo-949587/ */
-    background-image:url(/backgrounds/bg.jpg);
+    background-image:url(../backgrounds/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
