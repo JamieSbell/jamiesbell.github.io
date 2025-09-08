@@ -16,9 +16,10 @@ const navbarLinks = [
     },
     {
     type:'a',
-    text:'Contact',
-    link:'#contact',
+    text:'Résumé',
+    link:'../resume',
     },
+
     
 ];
 
@@ -429,8 +430,6 @@ const footer = (data) => {
             footer.append(socailLink(data.socials[i]));
         }
     }
-
-
 };
 const music = () => {
     let container = document.createElement('section');
